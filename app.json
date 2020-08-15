@@ -1,0 +1,12 @@
+{
+  "name": "ultimatereactnative",
+  "displayName": "UltimateReactNative",
+  "expo": {
+    "name": "ultimatereactnative",
+    "slug": "expo-template-bare",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
