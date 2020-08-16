@@ -1,5 +1,15 @@
-# OSX
-#
+.expo
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+
+# macOS
 .DS_Store
 
 # Xcode
@@ -52,12 +62,8 @@ buck-out/
 */fastlane/Preview.html
 */fastlane/screenshots
 
-# Bundle artifacts
+# Bundle artifact
 *.jsbundle
 
-# CocoaPods
-/ios/Pods/
-
-# Expo
-.expo/*
-web-build/
+# lint report
+lint-issues.html

@@ -1,0 +1,6 @@
+{
+  "jest.autoEnable": false,
+  "prettier.endOfLine": "lf",
+  "editor.wordWrap": "on",
+  "files.eol": "\n"
+}

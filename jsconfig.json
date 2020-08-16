@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"],
+      "assets": ["assets"],
+      "locale": ["src/locale"],
+      "common": ["src/common"],
+      "services": ["src/services"],
+      "modules": ["src/modules"]
+    }
+  },
+  "exclude": [
+    "build",
+    "**/build/*",
+    "dist",
+    "**/dist/*",
+    "android",
+    "**/android/*",
+    "ios",
+    "**/ios/*",
+    ".expo",
+    "**/.expo/*",
+    "node_modules",
+    "**/node_modules/*",
+    "**/__tests__/*",
+    "**/__test__/*"
+  ]
+}

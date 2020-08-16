@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "naumovs.color-highlight",
+    "editorconfig.editorconfig",
+    "orta.vscode-jest",
+    "pkief.material-icon-theme",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "ms-vscode.vs-keybindings"
+  ]
+}

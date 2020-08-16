@@ -1,0 +1,10 @@
+.expo/
+.expo-shared/
+*.d.ts
+src/locale/locales/*.js
+web-build/
+babel.config.js
+node_modules/
+*.test.js
+*.test.ts
+*.test.tsx
