@@ -1,5 +1,8 @@
 {
+  "name": "ultimate-react-native",
+  "version": "1.0.0",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "start": "react-native start",
     "start:expo": "expo start",
@@ -86,6 +89,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "private": true
+  }
 }

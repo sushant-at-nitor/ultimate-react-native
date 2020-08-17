@@ -67,3 +67,5 @@ buck-out/
 
 # lint report
 lint-issues.html
+
+.logs
