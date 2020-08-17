@@ -1,13 +1,20 @@
+import React, { useEffect, useState } from 'react';
+import { StyleSheet, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+
+import { setLocale } from 'src/locale';
+import MyApp from 'src/index';
 
 export default function App() {
+  const [isReady, setIsReady] = useState(false);
+  useEffect(() => {
+    setLocale('en');
+    setTimeout(() => setIsReady(true), 2000);
+  });
+
   return (
     <View style={styles.container}>
-      <Text style={styles.message}>
-        Open up App.tsx to start working on your Ultimate React Native Project!
-      </Text>
+      <MyApp isReady={isReady} />
       <StatusBar />
     </View>
   );
@@ -19,12 +26,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  message: {
-    textAlign: 'center',
-    backgroundColor: '#0dffff',
-    color: '#fff',
-    padding: 20,
-    fontSize: 18,
   },
 });
